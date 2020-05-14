@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.bigImg{
+    width: 768px;
+    height: 512px;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+#left, #right{
+    position: absolute;
+    top: 226px;
+    height: 60px;
+    opacity: 0.5;
+    transition: 1s;
+}
+#left{
+    left: 0;
+}
+#right{
+    right: 0;
+}
+.minImg{
+    width: 628px;
+    margin: 0 auto;
+}
+.minImg img{
+    width: 150px;
+    border: solid 2px white;
+    opacity: 0.5;
+    overflow: hidden;
+    position: relative;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+   
+}
+li{
+    display: inline-block;
+}
